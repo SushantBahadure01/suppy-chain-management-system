@@ -92,8 +92,7 @@ supplychain/entity/     # Some custom Types for process model.
 └── WPort.java
 ```
 
-## Video
-[Demo video](https://www.dropbox.com/s/kvhavse90hicdi9/cases_demo.mp4?dl=0)
+
 
 ## Run in `Intellij IDEA`
 1.  Download development tool:
@@ -125,7 +124,7 @@ supplychain/entity/     # Some custom Types for process model.
 
     First make sure you have installed `mysql` and your mysql has a empty database called `act6`
     
-    Or you can edit your own mysql `databasename/username/password` in [activiti-app.properties](https://github.com/sonnyhcl/Backend/blob/master/src/main/resources/META-INF/activiti-app/activiti-app.properties)
+    Or you can edit your own mysql `databasename/username/password` in [activiti-app.properties](https://github.com/SushantBahadure01/suppy-chain-management-system/blob/main/src/main/resources/META-INF/activiti-app/activiti-app.properties)
 
 5.  Configure Tomcat:
     -   Click `Run`
@@ -174,7 +173,7 @@ supplychain/entity/     # Some custom Types for process model.
 
     To import Backend as a Maven project in IDEA, follow the steps below :
     `File -> Import -> Maven -> Existing Maven Projects -> Select Root Directory -> Finish`
-    ![import](image/idea_import_project)
+   
 4.  Update Maven Dependencies:
 
     Right click the project name `activiti-app`, then enter -> `Maven` -> `Update Project`, waiting to load dependencies.
